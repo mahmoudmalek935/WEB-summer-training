@@ -8,7 +8,7 @@ body{
   background-color: mediumvioletred;
 }
 
-.left {
+.first {
   background-color: #00bcd4;
   color: #c6ee00;
   width: 30%;
@@ -21,21 +21,21 @@ body{
 
 }
 
-.left h1 {
+.first h1 {
   font-size: 36px;
   margin-bottom: 20px;
   text-align: center;
   margin-top: 50px;
 }
 
-.left p {
+.first p {
   font-size: 16px;
   text-align: center;
   margin-top: 50px;
 
 }
 
-.right {
+.second {
   background-color: white;
   width: 30%;
   height: 500px;
@@ -47,7 +47,7 @@ body{
 
 }
 
-.right strong {
+strong {
   
   font-size: 36px;
   margin-bottom: 10px;
