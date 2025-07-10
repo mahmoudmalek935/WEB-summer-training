@@ -1,0 +1,497 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.bg-black {
+  background-color: black;
+}
+
+.ax-header {
+  background-color: transparent;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-it {
+  color: orangered;
+}
+
+.size-axit {
+  font-size: 50px;
+}
+
+.size-axit-nav {
+  font-size: 30px;
+}
+
+.float-right {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  padding: 1% 0%;
+}
+
+nav ul {
+  width: 60%;
+  margin-top: 1%;
+}
+
+nav li {
+  margin-left: 11%;
+}
+
+.text-gray {
+  color: rgb(170, 169, 169);
+}
+
+.text-upercase {
+  text-transform: uppercase;
+}
+
+.margin-botom-top {
+  margin: 5% 0;
+}
+
+
+.banner {
+  background-image: url(../images/dodge-challenger-7680x4320-13503.jpg);
+  height: 590px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.621);
+  height: 100%;
+  padding: 10% 0%;
+}
+
+.card {
+  float: left;
+  width: 40%;
+}
+
+.btn-transparent {
+  margin-top: 2%;
+  padding: 1% 3%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid;
+}
+
+form {
+  float: right;
+  width: 30%;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  margin-right: 2%;
+}
+
+form h2 {
+  background-color: rgb(236, 236, 236);
+  padding: 3% 0;
+  border-radius: 8px 8px 0 0;
+}
+
+input {
+  display: block;
+  width: 80%;
+  margin: 15% auto;
+  border: none;
+  border-bottom: 1px solid rgb(183, 183, 183);
+}
+
+form button {
+  width: 100%;
+  background-color: orange;
+  border: none;
+  padding: 5% 0;
+  border-radius: 0 0 8px 8px;
+}
+
+.color-free {
+  color: orange;
+}
+
+hr {
+  width: 20%;
+  margin: 2% 0;
+  border: 2px solid;
+}
+
+p {
+  margin: 5% 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+button {
+  display: block;
+}
+
+#header {
+  width: 100%;
+  overflow: hidden;
+  padding: 40px 80px;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+}
+
+#header .social-text {
+  float: left;
+  text-align: left;
+}
+
+#header .social-text h2 {
+  margin: 0;
+}
+
+#header .social-text p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #666;
+}
+
+#header .icons {
+  float: right;
+}
+
+#header .icons i {
+  font-size: 28px;
+  color: #ccc;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+
+#container {
+  width: 80%;
+  margin: auto;
+  
+ 
+}
+
+.tabs {
+  float: left;
+}
+
+
+.tab {
+  background: #333;
+  color: #fff;
+  padding: 30px 40px;
+  border-bottom: 1px solid #fff;
+  width: 120px;
+}
+
+.tab.active {
+  background: #f57c00;
+}
+
+.content {
+  float: left;
+  width: 40%;
+  margin-left: 40px;
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.content h3 {
+  margin-top: 0;
+}
+
+.content p {
+  color: #666;
+  line-height: 1.5;
+}
+
+#container button {
+  background: #f57c00;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+
+.image {
+  float: left;
+  margin-left: 60px;
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.image img {
+  max-width: 400px;
+  display: block;
+}
+
+.image .reflection {
+  transform: scaleY(-1);
+  opacity: 0.2;
+  margin-top: -5px;
+}
+
+
+.image-section {
+  width: 50%;
+  float: left;
+}
+
+.image-section img {
+  width: 80%;
+  margin-bottom: 25%;
+  margin-top: 10%;
+}
+
+.text-section {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  text-align: left;
+   margin-bottom: 25%;
+   margin-top: 10%;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.item {
+  display: block;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.circle-up,
+.circle-down {
+  float: left;
+  font-size: 40px;
+  margin-right: 5%;
+}
+
+.item-content h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.item-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+
+.text-size {
+  font-size: 50px;
+}
+
+.center {
+  margin: auto;
+}
+
+.line-card {
+  width: 100%;
+  height: 1px;
+}
+
+.float-left {
+  float: left;
+}
+
+.margin-left-right {
+  margin: 0 10%;
+}
+
+.card-table {
+  width: 25%;
+  margin-bottom: 25%;
+}
+
+.pricing-card {
+  background: #333;
+  color: white;
+  border-radius: 5px;
+}
+
+.pricing-card h2 {
+  margin: 0;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.popular {
+  background: #ff6600;
+  padding: 5px;
+  border-radius: 3px;
+  display: block;
+  margin: 10px 0;
+}
+
+
+.testimonials h2 {
+
+  width: 100%;
+  right: 0;
+
+  font-size: 20px;
+}
+
+.testimonials p {
+  color: #666;
+}
+
+.review {
+  width: 28%;
+  float: left;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin: 1% 2%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: 300px;
+}
+.text-review{
+  margin-bottom: 30%;
+  background-color: #ccc;
+  width: 100%;
+}
+
+
+.author {
+  overflow: hidden;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.author h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.author p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-us {
+    text-align: center;
+    margin-top: 20%;
+}
+
+p {
+    text-align: center;
+    color: #777;
+}
+
+.contact-form{
+    width: 100%;
+    margin-left: 0;
+}
+
+label {
+    display: block;
+    
+}
+#message{
+  display: inline-block;
+}
+.name{
+  width: 50%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff6f20;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons i {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
