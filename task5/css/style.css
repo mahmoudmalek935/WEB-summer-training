@@ -1,0 +1,408 @@
+/* reset Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+/* global style */
+
+.bg-darkblue {
+  background-color: #101828;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+
+
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.padding-top-bottom {
+  padding: 1% 0%;
+}
+
+.padding-top-bottom-3 {
+  padding: 3% 0%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+
+.align-items-center {
+  align-items: center;
+}
+
+.w-5 {
+  width: 5%;
+}
+
+.w-17 {
+  width: 18%;
+}
+
+.w-23 {
+  width: 23%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.w-100 {
+  width: 100%;
+
+}
+
+.h-600 {
+  height: 600px;
+}
+
+.h-450 {
+  height: 450px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.h-800 {
+  height: 800px;
+}
+
+
+.margin-center {
+  margin: auto;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5%;
+}
+
+.margin-top-5 {
+  margin-top: 5%;
+}
+
+.margin-top-10 {
+  margin: 10px;
+}
+
+.margin-top-20 {
+  margin-top: 20%;
+}
+
+.margin-right-30 {
+  margin-right: 25%;
+}
+
+.margin-right-5 {
+  margin-right: 5%;
+}
+
+
+.margin-left-right-10 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.text-white {
+  color: white;
+}
+
+.padding-1 {
+  padding: 1%;
+}
+
+.padding-5 {
+  padding: 5%;
+}
+
+.padding-3 {
+  padding: 3%;
+}
+
+.padding-right-100 {
+  padding-left: 50%;
+}
+
+.border-radius-20px {
+  border-radius: 20px;
+}
+
+.border-radius-8px {
+  border-radius: 8px;
+}
+
+.br-none {
+  border: none;
+}
+
+.border-1 {
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.banner {
+  /* picture needed */
+  background-image: url(../images/image.jpg);
+  height: 590px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.321);
+  height: 100%;
+  padding: 10% 0%;
+}
+
+
+.btn-transparent {
+  margin-top: 2%;
+  padding: 2% 3%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid;
+}
+
+.text-darkblue {
+  color: #101828;
+}
+
+.text-gray {
+  color: rgb(156, 155, 155);
+}
+
+.product {
+  width: 50%;
+}
+
+.btn-product-active {
+  background-color: #101828;
+  border: none;
+  width: 20%;
+  padding: 2% 0;
+}
+
+.btn-product {
+  background-color: white;
+  border: none;
+  width: 20%;
+  padding: 2% 0;
+}
+
+/* first button problem */
+.btn-product:hover {
+  background-color: #101828;
+  color: white;
+}
+
+
+.float-right {
+  float: right;
+}
+
+.left-aside {
+  width: 60%;
+  vertical-align: bottom;
+}
+
+.right-aside {
+  width: 40%;
+  vertical-align: bottom;
+}
+
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.service-def {
+  left: 11%;
+  top: 43%;
+  font-size: 35px;
+}
+
+.service-def2 {
+  left: 62%;
+  top: 43%;
+  font-size: 35px;
+}
+
+.service-def3 {
+  left: 33%;
+  top: 45%;
+  font-size: 35px;
+}
+
+.aboutus-img {
+  height: 180px;
+  bottom: 3%;
+  right: 27%;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-size15 {
+  font-size: 15px;
+}
+
+.font-size25 {
+  font-size: 25px;
+}
+
+.font-size30 {
+  font-size: 35px;
+}
+
+.font-size20 {
+  font-size: 20px;
+
+}
+
+.l-h {
+  line-height: 1.5;
+}
+
+.play-icon {
+  width: 100px;
+  height: 100px;
+  border: 10px solid white;
+  border-radius: 50%;
+  left: 45%;
+  top: 45%;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 3%;
+}
+
+form input {
+  background-color: white;
+  width: 50%;
+  padding: 2% 0;
+}
+
+.translate-left15 {
+  transform: translateX(15px);
+}
+
+.l-hr {
+  width: 125%;
+  transform: translateX(-136px);
+}
+
+.scal15 {
+  transform: scale(1.5);
+}
+
+.under-line {
+  text-decoration: underline;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inlineblock {
+  display: inline-block;
+}
+
+.hidden0 {
+  opacity: 0;
+}
+
+@media (max-width: 900px) {
+  #n-bar {
+    width: 100%;
+  }
+  .w-50,.w-30 , .w-80{
+    width: 100%;
+  }
+
+  .hidden-section {
+    display: none;
+  }
+  .hidden0 {
+  opacity: 1;
+}
+
+   #shop .d-flex {
+    flex-wrap: wrap;
+  }
+  .left-aside{
+    width: 100%;
+  }
+   .right-aside{
+    width: 100%;
+  }
+  #aside-left .d-flex {
+    flex-wrap: wrap;
+  }
+  .hidden {
+  display: none;
+}
+#ourTeam{
+  order: 2;
+}
+
+#blog{
+  order: 1;
+}
+
+}
