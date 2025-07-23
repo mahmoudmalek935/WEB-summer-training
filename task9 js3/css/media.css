@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+    #n-bar{
+        width: 100%;
+    }
+.hidden-section{
+        display: none;
+    }
+}
