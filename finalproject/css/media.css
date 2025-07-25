@@ -1,0 +1,16 @@
+/* @media (max-width: 600px) {
+    #n-bar{
+        width: 100%;
+    }
+.hidden-section{
+        display: none;
+    }
+} */
+
+
+@media  (max-width:1200px) {
+    
+    .hidden-section{
+        display: none;
+    }
+}
